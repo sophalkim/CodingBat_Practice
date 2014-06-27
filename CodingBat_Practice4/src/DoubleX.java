@@ -2,12 +2,8 @@
 public class DoubleX {
 
 	public static boolean doubleX(String str) {
-		int len = str.length();
-		for (int i = 0; i < len; i++) {
+		for (int i = 0; i < str.length() - 1; i++) {
 			if (str.charAt(i) == 'x') {
-				if (i + 1 == len) {
-					return false;
-				}
 				if (str.charAt(i + 1) == 'x') {
 					return true;
 				} else {
