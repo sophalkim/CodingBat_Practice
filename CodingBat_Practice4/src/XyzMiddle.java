@@ -10,7 +10,9 @@ public class XyzMiddle {
 		String x = "xyz";
 		for (int i = 0; i < len - 2; i++) {
 			if (lowerCase.substring(i, i + 3).equals(x)) {
-				if (i - (len - i + 3) <= 1) {
+				int front = i;
+				int back = len - (i + 3);
+				if (Math.abs(front - back) <= 1) {
 					return true;
 				}
 			}
