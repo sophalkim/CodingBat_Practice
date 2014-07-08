@@ -3,14 +3,16 @@ public class XyzMiddle {
 
 	public static boolean xyzMiddle(String str) {
 		int len = str.length();
-		int mid = len / 2;
 		if (len < 3) {
 			return false;
 		}
 		String lowerCase = str.toLowerCase();
-		for (int i = mid - 1; i < mid + 1; i++) {
-			if (i + 3 < len && lowerCase.substring(i, i + 3).equals("xyz")) {
-				return true;
+		String x = "xyz";
+		for (int i = 0; i < len - 2; i++) {
+			if (lowerCase.substring(i, i + 3).equals(x)) {
+				if (i - (len - i + 3) <= 1) {
+					return true;
+				}
 			}
 		}
 		return false;
