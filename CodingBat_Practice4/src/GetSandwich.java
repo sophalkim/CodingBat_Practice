@@ -23,7 +23,7 @@ public class GetSandwich {
 		int end = len;
 		for (int i = len; i >= 5; i--) {
 			if (str.substring(i - 5, i).equals(b)) {
-				end = len - i;
+				end = i - 5;
 				break;
 			}
 		}
@@ -32,7 +32,7 @@ public class GetSandwich {
 	
 	
 	public static void main(String[] args) {
-		String str = "xxbreadjambreadyy";
+		String str = "breaxbreadybread";
 		System.out.println(getSandwich(str));
 	}
 }
