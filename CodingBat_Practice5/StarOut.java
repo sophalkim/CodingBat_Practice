@@ -11,7 +11,11 @@ public String startOut(String str) {
 	for (int i = count; i < len; i++) {
 		if (i + 1 < len && str.charAt(i + 1) == '*') {
 			if (i+ 2 < len && str.charAt(i + 2) == '*') {
-				i+=3;
+				if (i + 3 < len && str.charAt(i + 3) == '*') {
+					i+=4;
+				} else {
+					i+=3;
+				}	
 			} else {
 				i+=2;
 			}
