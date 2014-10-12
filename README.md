@@ -1,4 +1,4 @@
 CodingBat_Practice
 ==================
-asdfsfd
+Vacation
 Practicing Daily with CodingBat
