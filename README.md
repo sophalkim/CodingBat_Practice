@@ -1,4 +1,4 @@
 CodingBat_Practice
 ==================
-Cruise to Mexico
+object
 Practicing Daily with CodingBat
