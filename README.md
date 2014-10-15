@@ -1,4 +1,4 @@
 CodingBat_Practice
 ==================
-object
+number 4
 Practicing Daily with CodingBat
