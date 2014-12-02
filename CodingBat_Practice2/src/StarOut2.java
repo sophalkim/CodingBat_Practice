@@ -1,5 +1,5 @@
 
-public class StarOut {
+public class StarOut2 {
 /*
  public String starOut(String str) {
   String result = "";

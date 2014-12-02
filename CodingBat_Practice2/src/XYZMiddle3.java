@@ -1,5 +1,5 @@
 
-public class xyzMiddle {
+public class XYZMiddle3 {
 	public static void main(String[] args) {
 		String str = "xyzxyzAxyzBxyzxyz";
 		int index = str.indexOf("xyz", str.length()/2-2);

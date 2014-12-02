@@ -1,5 +1,5 @@
 
-public class sameEnds {
+public class SameEnds3 {
 	public static void main(String[] args) {
 		String string = "Hello! and Hello!";
 		int x = string.length();

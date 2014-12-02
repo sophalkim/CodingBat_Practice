@@ -1,5 +1,5 @@
 
-public class plusOut {
+public class PlusOut3 {
 	public static void main(String[] args) {
 		String str = "12xy34xyabcxy";
 		String word = "xy";

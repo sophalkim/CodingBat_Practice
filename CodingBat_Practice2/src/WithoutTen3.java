@@ -1,5 +1,5 @@
 
-public class withoutTen {
+public class WithoutTen3 {
 	public static void main(String[] args) {
 		int[] nums = {10, 13, 10, 14, 10};
 		int count = 0;

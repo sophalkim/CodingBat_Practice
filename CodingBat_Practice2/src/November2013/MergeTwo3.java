@@ -2,7 +2,7 @@ package November2013;
 
 
 
-public class MergeTwo {
+public class MergeTwo3 {
 
 	public static String[] mergeTwo(String[] a, String[] b, int n) {
 		String[] x = a;
