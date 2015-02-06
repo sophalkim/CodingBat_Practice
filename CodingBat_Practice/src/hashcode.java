@@ -1,11 +1,13 @@
 
 public class hashcode {
-	public static void main(String[] args) {
-		int[] x = {1,2,4,6,8};
-		int sum=0;
-		for (int y: x) {
-			sum = sum + y;
+	
+	public static void count(int n) {
+		while (n > 0) {
+			n = n / 10;
+			System.out.print(n % 10);
 		}
-		System.out.println(sum);
+	}
+	public static void main(String[] args) {
+		count(12254);
 	}
 }
