@@ -1,3 +1,6 @@
+import java.io.*;
+	import java.util.*;
+
 
 public class GenerateIP {
 
@@ -11,8 +14,7 @@ public class GenerateIP {
 	// Input: 10111
 	// Ouput: 1.0.1.11,   1.0.11.1,   101.1.1
 
-	import java.io.*;
-	import java.util.*;
+	
 
 	/*
 	 * To execute Java, please define "static void main" on a class
@@ -82,7 +84,7 @@ public class GenerateIP {
 	    return result;
 	  }
 	  
-	  public static void main(String[] args) {
+	  public void main(String[] args) {
 	    String str = "10111";
 	    Solution s = new Solution();
 	    System.out.println(s.generateIp(str));
