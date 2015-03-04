@@ -1,8 +1,8 @@
 public String changePi(String str) {
 	int len = str.length();
 	String result = "";
-	if (len <= 1) return result;
-	if (str.substring(0, 2).equals("pi")) {
+	if (len <= 0) return result;
+	if (len >= 2 && str.substring(0, 2).equals("pi")) {
 		result += "3.14";
 		str = str.substring(1);
 	} else {
